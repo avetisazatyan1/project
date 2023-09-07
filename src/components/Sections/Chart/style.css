@@ -1,0 +1,22 @@
+.app-section-chart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 150px 0;
+
+}
+
+.app-section-chart-icon{
+    display: flex;
+    justify-content: "end";
+}
+
+.app-section-chart-bar{
+    max-width: 1270px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%
+}

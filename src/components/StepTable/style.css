@@ -1,0 +1,12 @@
+.aa{
+    
+    border: 1px solid red 
+}
+
+.app-step-table-row{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    border: 1px solid red 
+}

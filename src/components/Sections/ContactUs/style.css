@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.app-section-contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 110px ;
+}
+
+.app-section-contact-us-title{
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.app-section-contact-us-container{
+    display: flex;
+    width: 100%;
+    box-shadow: 1px 1px 10px;
+}
+
+.app-section-contact-us-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-section-contact-us-form{
+    padding:50px;
+}
+
+.app-section-contact-us-form-title{
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F5CC00;
+}
+
+.app-section-contact-us-form-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding-top: 120px;
+}
+
+.app-section-contact-us-form-inputs-item {
+    display: flex;
+    gap: 80px;
+}
+
+.app-section-contact-us-form-inputs-item input{
+    border: none;
+    border-bottom: 4px solid #D4D2D2;
+    background: none;
+    color: none;
+    padding: 20px 0;
+    width: 288px;
+    color: white;
+}
+
+.app-section-contact-us-form-inputs-item input::placeholder, 
+.app-section-contact-us-form-message-item input::placeholder {
+    font-family: Roboto Condensed;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.app-section-contact-us-form-message-item input{
+    margin-top: 120px;
+    border: none;
+    border-bottom: 4px solid #D4D2D2;
+    background: none;
+    color: none;
+    width: 656px;
+    padding: 20px 0;
+    color: white;
+}
+
+.app-section-contact-us-form-btn{
+    margin-top: 48px;
+}
+
+.app-section-contact-us-info{
+    display: flex; 
+    background-color: #F5CC00;
+}
+
+.app-section-contact-us-info-frame{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    margin: 74px 50px;
+    background-color: #161515;
+}
+
+.app-section-contact-us-info-logo{
+    margin: 45px 135px;
+}
+
+.app-section-contact-us-info-contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.app-section-contact-us-info-contacts-with{
+    display: flex;
+    margin: 110px 150px;
+    gap: 14px;
+}
+
+.app-section-contact-us-info-contacts-with-items{
+    padding: 14px;
+    display: flex;
+    border-radius: 7.059px;
+    border: 1.412px solid var(--yellow, #FFC83D);
+}

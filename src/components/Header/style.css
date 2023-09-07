@@ -1,0 +1,60 @@
+.app-header{
+    padding: 11px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161515;
+}
+
+.app-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+    overflow: hidden;
+}
+
+.app-menu li:first-child{
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+.app-lang-container{
+    display: flex;
+    gap: 40px;
+}
+
+.app-lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.app-lang-icon{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 6px;
+}
+.app-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: auto;
+}
+
+.app-search input{
+    padding-left: 30px;
+    background: none;
+    border: 1px solid white;
+    height: 30px;
+}
+
+.app-search img{
+    position: absolute;
+    top: 25%;
+    right: 12px;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.app-section-about{
+    display: flex;
+    justify-content: center;    
+    margin: 150px 110px;
+}
+
+.app-section-about-info{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F5CC00;
+    padding: 74px 43px;    
+}
+
+.app-section-about-info-img img{
+    box-shadow: 1px 1px 10px;
+}
+
+.app-section-about-info-title{
+    display: flex;
+    justify-content: center;
+    font-family: Oswald;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #161515;
+}
+
+.app-section-about-info-description{
+    font-family: Roboto Condensed;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 131.687%;
+    color: #161515;
+}

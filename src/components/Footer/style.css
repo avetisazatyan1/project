@@ -1,0 +1,89 @@
+.app-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 150px 110px 35px; 
+}
+
+.app-footer-title{
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.app-footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.app-footer-menu-container{
+    display: flex;
+    gap: 148px;
+    align-items: space-between;
+}
+
+.app-footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+.app-footer-subscribe input{
+    border: 1px solid yellow;
+    border-radius: 2px;
+    background: none;
+    color: none;    
+    padding: 10px 110px 10px 10px;
+}
+
+.app-footer-subscribe input{
+    color: #FFFFFF;
+}
+
+.app-footer-subscribe input::placeholder{
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.app-footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.app-footer-menu-items{
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 110px;    
+    padding: 0px;
+}
+
+.app-footer-contact-with{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    padding: 14px;
+}
+
+.app-footer-container-year{
+    text-align: center;
+    padding: 27px;
+    border-top: 2px solid yellow;
+}
+

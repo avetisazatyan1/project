@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.button-default {
+    background-color: #F5CC00; 
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    border-radius: 3px;
+}
+.button-span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-border {
+    background: none;
+    color: #ffff;
+    border: 1px solid #F5CC00;
+}
+
+.button-subscribe {
+    background: #FFC83D;
+    color: black;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    width: fit-content;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.container-title{
+    display: flex;
+    justify-content: center;
+    padding: 22px 32px;
+    font-family: Oswald;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 28px 28px 5px 5px;
+}
+
+.container-description{
+    color: #161515;
+    font-family: Roboto Condensed;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5CC00;
+    padding: 34px;
+}
+.plan-highlights{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid yellow;
+}
+
+.plan-highlights-circle{
+    width: 23px;
+    border-radius: 20px;
+    height: 23px;
+    background: yellow;
+}
+
+.plan-highlights-line{
+    line-height: 0
+}
