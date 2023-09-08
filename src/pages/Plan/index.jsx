@@ -1,5 +1,3 @@
-
-import ContactUs from "../../components/Sections/ContactUs";
 import Container from "../../components/global/Container";
 import HeaderLayout from "../../components/global/HeaderLayout";
 import PlanHighlights from "../../components/global/PlanHighlights";
@@ -42,11 +40,7 @@ const Plan = () => {
 
             <div className="app-plan-description">
                 <p>Lorem ipsum dolor sit amet consectetur. Nulla adipiscing feugiat et volutpat. Neque purus semper aenean velit. Facilisis hac eu ornare mattis malesuada mattis nam laoreet. Sed ullamcorper commodo amet mauris tortor adipiscing fusce consequat.Lorem ipsum dolor sit amet consectetur. Nulla adipiscing feugiat et volutpat. Neque purus semper aenean velit. Facilisis hac eu ornare mattis malesuada mattis nam laoreet. Sed ullamcorper commodo amet mauris tortor adipiscing fusce consequat.Lorem ipsum dolor sit amet consectetur. Nulla adipiscing feugiat et volutpat. Neque purus semper aenean velit. Facilisis hac eu ornare mattis malesuada mattis nam laoreet. Sed ullamcorper commodo amet mauris tortor adipiscing fusce consequat.Lorem ipsum dolor sit amet consectetur. Nulla adipiscing feugiat et volutpat. Neque purus semper aenean velit. Facilisis hac eu ornare mattis malesuada mattis nam laoreet. Sed ullamcorper commodo amet mauris tortor adipiscing fusce consequat.Lorem ipsum dolor sit amet consectetur. Nulla adipiscing feugiat et volutpat. Neque purus semper aenean velit. Facilisis hac eu ornare mattis malesuada mattis nam laoreet. Sed ullamcorper commodo amet mauris tortor adipiscing fusce consequat.Lorem ipsum dolor sit amet consectetur. Nulla adipiscing feugiat et volutpat. Neque purus semper aenean velit. Facilisis hac eu ornare mattis malesuada mattis nam laoreet. Sed ullamcorper commodo amet mauris tortor adipiscing fusce consequat.</p>
-            </div>
-            {/*             
-            <div className="app-objective-group">
-                <ContactUs/>
-            </div> */}
+            </div>            
         </div>
     );
 }

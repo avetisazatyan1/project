@@ -68,8 +68,15 @@
     height: 185px;
     border-radius: 3px;
     border: 8px solid #F5CC00;
-    background-image: url('/public/assets/Images/section_info_background.png');    
+    background-image: url('/public/assets/Images/section_info_background.png'); 
+    opacity: 0.5;   
+    cursor: pointer;
 }
+
+.app-section-container-grid-info:hover{
+    opacity: 1;   
+}
+
 .app-section-container-grid-info h1{
     font-family: Oswald;
     font-style: normal;

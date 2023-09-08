@@ -3,7 +3,6 @@ import StepTable from "../../components/StepTable";
 import Button from "../../components/global/Button";
 import "./style.css";
 import HeaderLayout from "../../components/global/HeaderLayout";
-import ContactUs from "../../components/Sections/ContactUs";
 
 const Objective = () => {
     const [clickedCurrencyBtn, setClickedCurrencyBtn] = useState("USD");
@@ -94,7 +93,6 @@ const Objective = () => {
                     </div>
                 </div>
                 <StepTable/>
-                {/* <ContactUs/>        */}
             </div>
         </>
     );

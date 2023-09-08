@@ -10,7 +10,16 @@
 
 .app-section-chart-icon{
     display: flex;
-    justify-content: "end";
+    align-self: flex-end;
+    margin-right: 110px;
+}
+
+.app-section-chart-icon svg path{
+    transition: fill 0.3s;
+}
+
+.app-section-chart-icon svg path:hover{
+    fill: #F5CC00;
 }
 
 .app-section-chart-bar{

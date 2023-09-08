@@ -52,7 +52,7 @@
     padding-top: 120px;
 }
 
-.app-section-contact-us-form-inputs-item {
+.app-section-contact-us-form-inputs-item{
     display: flex;
     gap: 80px;
 }
@@ -65,12 +65,18 @@
     padding: 20px 0;
     width: 288px;
     color: white;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: 0em;
+    text-align: left;    
 }
 
 .app-section-contact-us-form-inputs-item input::placeholder, 
 .app-section-contact-us-form-message-item input::placeholder {
     font-family: Roboto Condensed;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 0;
     letter-spacing: 0em;

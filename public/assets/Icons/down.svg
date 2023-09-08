@@ -1,15 +1,3 @@
 <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="13" height="9" fill="#F5F5F5"/>
-<g id="Desktop - 1" clip-path="url(#clip0_0_1)">
-<rect width="1600" height="6760" transform="translate(-521 -57)" fill="#101010"/>
-<rect id="Rectangle 1" x="-521" y="-57" width="1600" height="112" fill="#161515"/>
-<g id="Group 8">
-</g>
-<path id="Vector 18" d="M1 1.5L6.5 7L12 1.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
-</g>
-<defs>
-<clipPath id="clip0_0_1">
-<rect width="1600" height="6760" fill="white" transform="translate(-521 -57)"/>
-</clipPath>
-</defs>
+    <path id="Vector 1" d="M1 1.5L6.5 7L12 1.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
 </svg>

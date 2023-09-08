@@ -3,7 +3,6 @@ import Rate from "../Rate";
 import Button from "../global/Button";
 import Evaluation from "./Evaluation";
 import About from "./About";
-import ContactUs from "./ContactUs";
 import WhyChoose from "./WhyChoose";
 
 import "./style.css";
@@ -40,10 +39,6 @@ const Sections = () => {
             <Chart/>            
             <Rate/>
             <WhyChoose/>
-
-            {/* <div className="app-objective-group">
-                <ContactUs/>       
-            </div> */}
         </div>
     )
 }

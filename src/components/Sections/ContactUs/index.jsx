@@ -62,28 +62,34 @@ const ContactUs = () =>{
                         <div className="app-section-contact-us-info-contacts-with">
                             <div className="app-section-contact-us-info-contacts-with-items">
                                 <div className="app-section-contact-us-info-contacts-with-item">
-                                    <img 
-                                        src ="/assets/Icons/contact_with_instagram.svg"
-                                        alt="logo"
-                                        width={45}
-                                        height={45}
-                                    />
+                                    <a href="https://www.instagram.com/tradewithcapital/" target="_blank" rel="noreferrer">
+                                        <img 
+                                            src ="/assets/Icons/contact_with_instagram.svg"
+                                            alt="logo"
+                                            width={39}
+                                            height={39}
+                                        />
+                                    </a>
                                 </div>
                                 <div className="app-section-contact-us-info-contacts-with-item">
-                                    <img 
-                                        src ="/assets/Icons/contact_with_linkedin.svg"
-                                        alt="logo"
-                                        width={45}
-                                        height={45}
-                                    />
+                                    <a href="https://www.twitter.com/tradewcapital" target="_blank" rel="noreferrer">
+                                        <img 
+                                            src ="/assets/Icons/contact_with_twitter.svg"
+                                            alt="logo"
+                                            width={39}
+                                            height={39}
+                                        />
+                                    </a>
                                 </div>
                                 <div className="app-section-contact-us-info-contacts-with-item">
-                                    <img 
-                                        src ="/assets/Icons/contact_with_facebook.svg"
-                                        alt="logo"
-                                        width={45}
-                                        height={45}
-                                    />
+                                    <a href="https://www.tiktok.com/@tradewithcapital" target="_blank" rel="noreferrer">
+                                        <img 
+                                            src ="/assets/Icons/contact_with_tiktok.svg"
+                                            alt="logo"
+                                            width={39}
+                                            height={39}
+                                        />
+                                    </a>
                                 </div>
                             </div>                            
                         </div>

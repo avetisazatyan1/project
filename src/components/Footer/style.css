@@ -54,22 +54,44 @@
 
 .app-footer-menu{
     display: flex;
+    width: 100%;
     flex-direction: column;
     gap: 25px;
 }
 
 .app-footer-menu-items{
+    width: 100%;
     list-style-type: none;
     display: flex;
-    overflow: hidden;
+    gap: 110px;    
+    padding: 0;
+    margin: 0;
+}
+
+.app-afooter-menu-itemss {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 27px;
+    margin: 0;
+    padding: 0;
+}
+
+.app-footer-menu-items li,
+.app-afooter-menu-itemss li{
     font-family: Oswald;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0em;
-    text-align: left;
-    gap: 110px;    
-    padding: 0px;
+    transition: transform .5s;
+}
+
+.app-footer-menu-items li:hover {
+    color: yellow;
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.2); 
 }
 
 .app-footer-contact-with{

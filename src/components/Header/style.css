@@ -12,7 +12,15 @@
     list-style-type: none;
     display: flex;
     gap: 100px;
-    overflow: hidden;
+}
+
+.app-menu li {
+    transition: transform .5s;
+}
+
+.app-menu li:hover {
+    color: #F5CC00;
+    transform: scale(1.1); 
 }
 
 .app-menu li:first-child{
@@ -32,12 +40,32 @@
     align-items: center;
     gap: 12px;
 }
+
+.opend{
+    transform: rotate(-180deg);  
+    transition: 0.8s;  
+    color: yellow  
+}
+
+.opend svg path{
+    transition: fill 0.3s;
+}
+
+.opend svg path{
+    stroke: #F5CC00;
+}
+
+.opened-colored{
+  color: yellow  
+}
+
 .app-lang-icon{
     display: flex;
     justify-content: center;
     align-items: baseline;
     gap: 6px;
 }
+ 
 .app-search{
     display: flex;
     justify-content: center;
@@ -51,6 +79,7 @@
     background: none;
     border: 1px solid white;
     height: 30px;
+    color: white;
 }
 
 .app-search img{
@@ -58,3 +87,8 @@
     top: 25%;
     right: 12px;
 }
+
+
+input:focus::placeholder {
+    color: transparent;
+  }

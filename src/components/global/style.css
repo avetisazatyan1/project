@@ -26,6 +26,13 @@
     border: 1px solid #F5CC00;
 }
 
+.button-border:hover,
+.button-default:hover {
+    background: white;
+    color: black;
+    transition: 0.5s;
+}
+
 .button-subscribe {
     background: #FFC83D;
     color: black;
@@ -37,6 +44,12 @@
     letter-spacing: 0em;
     padding: 5px 10px;
     text-align: left;
+}
+
+.button-subscribe:hover {
+    background: white;
+    color: #FFC83D;
+    transition: 0.5s;
 }
 
 .container-title{

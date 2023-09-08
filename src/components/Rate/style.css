@@ -10,22 +10,30 @@
 }
 
 .app-section-rate-container{
-    padding: 40px 70px;
     background: #F5CC00;
     border-radius: 8px;
 }
 
 .app-section-rate-container1{
     width: 100%;
-    height: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-around
 }
 
 .app-section-rate-item{
     display: flex;
     align-items: center;
+    background: #F5CC00;
+    gap: 6px
+}
+
+.app-section-rate-item-clicked{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    padding: 16px 70px;
     gap: 6px
 }
 
@@ -43,6 +51,7 @@ table td, table th {
     line-height: normal;
     padding: 28px;
 }
+
 table td {
     text-align: center;
     vertical-align: middle;
@@ -57,4 +66,4 @@ table td {
 
 th, td {
     border-bottom: 1px solid #C5BDBD;
-  }
+}
