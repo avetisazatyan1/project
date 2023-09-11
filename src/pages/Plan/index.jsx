@@ -11,8 +11,8 @@ const Plan = () => {
                 description={'Lorem ipsum dolor sit amet consectetur. Nulla adipiscing feugiat et volutpat. Neque purus semper aenean velit. Facilisis hac eu ornare mattis malesuada mattis nam laoreet. Sed ullamcorper commodo amet mauris tortor adipiscing fusce consequat.Lorem ipsum dolor sit amet consectetur. Nulla adipiscing feugiat et volutpat. Neque purus semper aenean velit. Facilisis hac eu ornare mattis malesuada mattis nam laoreet. Sed ullamcorper commodo amet mauris tortor adipiscing fusce consequat.'}
             />
 
-            <div style={{display: "flex", width: "100%"}}>
-                <div className="app-plan-container">
+            <div className="app-plan-container">
+                <div className="app-plan-container-types">
                     <Container color={"#0D53DB"} title={"Trading Objective"} description={"Maximum Daily Loss"} about={"Minimum Equity"}/>
                     <Container color={"#13BD57"} title={"Standart"} description={"5% Of the initial balance"} about={"10% Of the initial balance"}/>
                     <Container color={"#D60A0A"} title={"Aggressive"} description={"10% Of the initial balance"} about={"20% Of the initial balance"}/>

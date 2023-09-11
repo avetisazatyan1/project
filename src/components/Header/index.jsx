@@ -1,15 +1,25 @@
 import { Link } from "react-router-dom";
 import "./style.css";
 import { useState } from "react";
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select'
+import { makeStyles } from '@mui/styles';
+
+const useStyles = makeStyles((theme) => ({    
+    icon: {fill:"white !important"},
+    text: {color:"white !important"}
+  }));
 
 const Header = () => {
-    const [langBtnClicked, setLangBtnClicked] = useState(false);
+    const [selectedLang, setSelectedLang] = useState("EN");
 
-    const onClickLangBtn = () =>{  
-        setLangBtnClicked(!langBtnClicked)
-    }
 
- 
+    const handleChange = (event) => {
+        setSelectedLang(event.target.value);
+    };   
+   
+    const classes = useStyles();
     return (
         <div className="app-header">
             <div className="logo">
@@ -44,22 +54,36 @@ const Header = () => {
                 </li>
             </ul>
 
-            <div className="app-lang-container" >
-                <div className='app-lang'>
-                    <img 
-                        src ="/assets/Icons/eng_lang.svg"
-                        alt="eng_lang"                            
-                        width={35}
-                        height={33}
-                    />
-                    <div className="app-lang-icon" onClick={()=> onClickLangBtn()}>
-                        <span className={`${langBtnClicked && 'opened-colored'}`}>EN</span>
-                        <img 
-                            src ="/assets/Icons/down.svg"
-                            alt="drop_down"  
-                            className={`${langBtnClicked && 'opend'}`}                      
-                        />
-                    </div>                    
+            <div className="app-lang-container" >                
+                <div className='app-lang' >
+                    <FormControl sx={{ border: 0}} variant="filled"  >
+                        <Select className={classes.select}
+                            sx={{backgroundColor:"inherit", borderBottom: 0}}
+                            onChange={handleChange}
+                            displayEmpty
+                            inputProps={{
+                                classes: {
+                                    icon: classes.icon
+                                },
+                            }}
+                            value={selectedLang}
+                        >   
+                            {
+                                ["RU", "EU", "EN"].map(elem => 
+                                    <MenuItem value={elem} key ={elem} >
+                                        <img 
+                                            key={elem}
+                                            src ="/assets/Icons/eng_lang.svg"
+                                            alt="eng_lang"                            
+                                            width={35}
+                                            height={33}
+                                        />
+                                        <span className={classes.text} >{elem}</span>
+                                    </MenuItem>
+                                )
+                            }
+                        </Select>
+                    </FormControl>
                 </div>
                 <div className="app-search"> 
                     <input type="text" name="search" placeholder="Search" />
@@ -70,6 +94,7 @@ const Header = () => {
                         height={19}
                     />
                 </div>
+                
             </div>
         </div>        
     )

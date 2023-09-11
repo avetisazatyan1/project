@@ -24,7 +24,7 @@ const Footer = () => {
                             <li> F.A.Q  </li>
                         </ul>
 
-                        <ul className="app-afooter-menu-itemss">
+                        <ul className="app-footer-menu-items2">
                             <li> Address </li>
                             <li> Phone </li>
                         </ul>

@@ -7,6 +7,11 @@
 
 .app-plan-container{
     display: flex;
+    width: 100%
+}
+
+.app-plan-container-types{
+    display: flex;
     justify-content: space-between;
     width: 100%;
     gap : 85px;

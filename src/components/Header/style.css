@@ -16,11 +16,18 @@
 
 .app-menu li {
     transition: transform .5s;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    transition: transform .5s;
 }
 
 .app-menu li:hover {
     color: #F5CC00;
-    transform: scale(1.1); 
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .app-menu li:first-child{
@@ -65,7 +72,7 @@
     align-items: baseline;
     gap: 6px;
 }
- 
+
 .app-search{
     display: flex;
     justify-content: center;
@@ -84,11 +91,46 @@
 
 .app-search img{
     position: absolute;
-    top: 25%;
+    top: 36%;
     right: 12px;
 }
 
 
 input:focus::placeholder {
     color: transparent;
-  }
+}
+
+.MuiSelect-select{
+display: flex!important;
+align-items: center!important;
+gap: 12px!important;
+
+}
+
+.MuiSvgIcon-root{
+    top: 30px!important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list{
+    background-color: #161515;
+    display: flex;
+    flex-direction: column;
+    padding: 0!important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+    display: flex;
+    gap: 15px
+}
+
+.css-1w8dohr-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root.Mui-focused{
+    padding: 0!important;
+}
+
+.css-1w8dohr-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root:after {
+    border: unset !important;
+}
+
+.css-1w8dohr-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root:before{
+    border-bottom: unset!important;
+}
