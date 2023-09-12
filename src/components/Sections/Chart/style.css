@@ -23,8 +23,8 @@
 }
 
 .app-section-chart-bar{
-    max-width: 1270px;
-    height: 200px;
+    max-width: 1350px;
+    max-height: 400px;
     display: flex;
     justify-content: center;
     width: 100%

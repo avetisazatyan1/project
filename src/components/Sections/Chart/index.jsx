@@ -34,15 +34,24 @@ const chartOptions = {
     scales: {
         y: {
             beginAtZero: true,
-            max: 1000,
-            stepSize: 250,
+            max: 300,
+            
             title: {
                 display: true,
             },
+            ticks: {
+                stepSize: 50,
+            },
+            grid: {
+                display: true,
+                color: "white"
+            },
+            
         },
         x: {
             grid: {
-                display: false,
+                display: true,
+                color: "white"
             },
         },
     },
@@ -66,12 +75,12 @@ export const data = {
     datasets: [
         {
             label: 'Dataset 1',
-            data: [700, 100, 700, 150, 650, 850, 120, 750, 150, 120],
+            data: [100, 200, 120, 150, 250, 250, 110, 240, 250, 120],
             backgroundColor: 'rgba(255, 250, 250)',
         },
         {
             label: 'Dataset 2',
-            data: [150, 650, 200, 50, 650, 720, 900, 650, 150, 200],
+            data: [150, 300, 100, 250, 190, 220, 100, 250, 50, 200],
             backgroundColor: 'rgba(245, 204, 0)',
         },
     ],

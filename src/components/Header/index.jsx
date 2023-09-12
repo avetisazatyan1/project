@@ -8,8 +8,10 @@ import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles((theme) => ({    
     icon: {fill:"white !important"},
-    text: {color:"white !important"}
-  }));
+    text: {color:"white !important"},
+    select:{'&:focus':{color:"red"}}
+        
+}));
 
 const Header = () => {
     const [selectedLang, setSelectedLang] = useState("EN");
@@ -35,13 +37,22 @@ const Header = () => {
 
             <ul className="app-menu">
                 <li>
-                    <span>How it works</span>
-                    <img
-                        src ="/assets/Icons/down.svg"
-                        alt="eng_lang"                            
-                        width={11}
-                        height={6}
-                    />
+                    <div className="app-menu-dropdown" style={{display:"inline-block",position:"relative"}}>
+                        <div className="app-menu-dropdown-drop" style={{}}>
+                            <span>How it works</span>
+                            <img
+                                src ="/assets/Icons/down.svg"
+                                alt="eng_lang"                            
+                                width={11}
+                                height={6}
+                            />
+                        </div>
+                        <div className="app-menu-dropdown-content">
+                            <Link to='/'>Home</Link>
+                            <Link to='/plan'>Plan</Link>
+                            <Link to='/objectives'>Objectives</Link>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <span>About Us</span>                            
@@ -56,7 +67,7 @@ const Header = () => {
 
             <div className="app-lang-container" >                
                 <div className='app-lang' >
-                    <FormControl sx={{ border: 0}} variant="filled"  >
+                    <FormControl className={classes.formControl} sx={{ border: 0}} variant="filled"  >
                         <Select className={classes.select}
                             sx={{backgroundColor:"inherit", borderBottom: 0}}
                             onChange={handleChange}
@@ -66,7 +77,7 @@ const Header = () => {
                                     icon: classes.icon
                                 },
                             }}
-                            value={selectedLang}
+                            value={selectedLang}                            
                         >   
                             {
                                 ["RU", "EU", "EN"].map(elem => 

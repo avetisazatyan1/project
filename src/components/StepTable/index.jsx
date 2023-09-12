@@ -22,7 +22,6 @@ function createData(name, step1, step2, step3) {
         step1,
         step2,
         step3,
-        history: "",
     };
 }
 
@@ -46,13 +45,13 @@ function Row(props) {
                     alignItems: 'center',
                     gap: '12px',
                     color: 'white',
-                }} component="th" scope="row">
+                }} component="th" scope="row"  onClick={() => setOpen(!open)}>
 
                 <IconButton
                     style={{color: 'white'}} 
                     aria-label="expand row"
                     size="small"
-                    onClick={() => setOpen(!open)}
+                    
                 >
                     {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                 </IconButton>
@@ -82,7 +81,6 @@ Row.propTypes = {
         step1: PropTypes.string,
         step2: PropTypes.string,
         step3: PropTypes.string,
-        history: PropTypes.string,
         name: PropTypes.string
     }).isRequired,
 };

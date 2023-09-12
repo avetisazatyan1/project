@@ -30,7 +30,34 @@
     cursor: pointer;
 }
 
-.app-menu li:first-child{
+
+.app-menu-dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #161515;
+    margin-top: 3px;
+}
+  
+.app-menu-dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.app-menu-dropdown-content a:hover{
+    background-color: #101010;
+    color: white
+}
+
+.app-menu-dropdown:hover .app-menu-dropdown-content{
+    display: block;
+}
+
+.app-menu-dropdown-drop{
     display: flex;
     gap: 8px;
     align-items: baseline;
@@ -133,4 +160,12 @@ gap: 12px!important;
 
 .css-1w8dohr-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root:before{
     border-bottom: unset!important;
+}
+
+.css-1w8dohr-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root.Mui-focused{
+    background-color: unset!important ;
+}
+
+.css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input.MuiSelect-select {
+    background-color: unset!important ;
 }
