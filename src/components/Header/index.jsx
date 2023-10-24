@@ -24,6 +24,7 @@ const Header = () => {
     const classes = useStyles();
     return (
         <div className="app-header">
+        <div className="container">
             <div className="logo">
                 <Link to='/'>
                     <img 
@@ -64,6 +65,7 @@ const Header = () => {
                     <span>F.A.Q</span>
                 </li>
             </ul>
+            <div className="mobile-menu-icon"></div>
 
             <div className="app-lang-container" >                
                 <div className='app-lang' >
@@ -106,6 +108,7 @@ const Header = () => {
                     />
                 </div>
                 
+            </div>
             </div>
         </div>        
     )

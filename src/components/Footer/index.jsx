@@ -7,6 +7,7 @@ const Footer = () => {
     
     return (
         <div className="app-footer">
+        <div className="container">
             <div className="app-footer-title">
                 Signup For Our Newsletter
             </div>
@@ -68,6 +69,7 @@ const Footer = () => {
             <div className ="app-footer-container-year">
                Copyright {year}
             </div> 
+            </div>
         </div>
     )
 }

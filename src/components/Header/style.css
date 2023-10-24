@@ -25,7 +25,7 @@
 }
 
 .app-menu li:hover {
-    color: #F5CC00;
+    color: #FCB64C;
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -126,6 +126,9 @@
 input:focus::placeholder {
     color: transparent;
 }
+input::placeholder {
+    color: #fff;
+}
 
 .MuiSelect-select{
 display: flex!important;
@@ -134,8 +137,8 @@ gap: 12px!important;
 
 }
 
-.MuiSvgIcon-root{
-    top: 30px!important;
+.MuiSvgIcon-root {
+    top: 6px!important;
 }
 
 .css-6hp17o-MuiList-root-MuiMenu-list{
@@ -168,4 +171,106 @@ gap: 12px!important;
 
 .css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input.MuiSelect-select {
     background-color: unset!important ;
+}
+.app-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-search input {
+    padding-left: 22px;
+    height: 42px;
+    max-width: 159px;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-family: Oswald;
+}
+body .css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 20px;
+}
+li.MuiButtonBase-root img {
+    border-radius: 50%;
+}
+body .css-17gq4vl.MuiSelect-select {
+    padding: 2px 12px 2px !important;
+}
+body .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    border-radius: 0;
+}
+.app-menu-dropdown-drop img {
+    top: -3px;
+    position: relative;
+}
+
+
+.mobile-menu-icon
+{
+    display: none;
+}
+
+@media (max-width:1600px)
+{
+ .App {
+    overflow-x: hidden;
+}
+}
+@media (max-width:1399px)
+{
+.app-header {
+    padding: 11px 20px;
+}
+.app-menu {
+    gap: 50px;
+}
+}
+@media (max-width:1199px)
+{
+.app-lang-container {
+    gap: 10px;
+}
+.app-menu li {
+    font-size: 18px;
+}
+body .css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
+    font-size: 18px;
+}
+.app-menu {
+    gap: 40px;
+}
+}
+@media (max-width:992px){
+.app-header {
+    padding: 11px 15px;
+}
+.logo img {
+    max-width: 70px;
+}
+.app-menu {
+    gap: 23px;
+}
+.app-menu li {
+    font-size: 16px;
+}
+body .css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
+    font-size: 16px;
+}  
+.app-lang .MuiSelect-select img {
+    max-width: 26px;
+}
+.app-search input {
+    max-width: 109px;
+}
+.app-lang li.MuiButtonBase-root img {
+    max-width: 25px;
+}
+
+}
+@media (max-width:768px){
+
+
 }

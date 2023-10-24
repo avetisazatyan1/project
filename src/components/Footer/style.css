@@ -30,12 +30,13 @@
     margin-top: 20px;
     gap: 20px;
 }
-.app-footer-subscribe input{
-    border: 1px solid yellow;
-    border-radius: 2px;
+.app-footer-subscribe input {
+    border: 1px solid #FFC83D;
+    border-radius: 5px;
     background: none;
-    color: none;    
+    color: none;
     padding: 10px 110px 10px 10px;
+    height: 27px;
 }
 
 .app-footer-subscribe input{
@@ -89,24 +90,30 @@
 }
 
 .app-footer-menu-items li:hover {
-    color: yellow;
+    color: #FCB64C;
     -webkit-transform: scale(1); /* Safari 3-8 */
     transform: scale(1.2);    
     cursor: pointer;
 }
 
-.app-footer-contact-with{
+.app-footer-contact-with {
     display: flex;
     flex-direction: column;
     gap: 14px;
-    border: 1px solid yellow;
-    border-radius: 4px;
+    border: 1px solid #FCB64C;
+    border-radius: 7px;
     padding: 14px;
+    margin-bottom: 40px;
 }
-
-.app-footer-container-year{
+.app-footer-container-year {
     text-align: center;
     padding: 27px;
-    border-top: 2px solid yellow;
+    border-top: 2px solid #FFC83D;
+    font-size: 20px;
+    font-family: Oswald;
+    font-weight: 700;
 }
-
+.app-footer .container {
+    display: flex;
+    flex-direction: column;
+}

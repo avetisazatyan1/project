@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .app-section-about{
     display: flex;
@@ -9,33 +10,39 @@
     margin: 150px 110px;
 }
 
-.app-section-about-info{   
+.app-section-about-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #F5CC00;
-    padding: 74px 43px;    
+    background-color: #FCB64C;
+    padding: 61px 43px;
 }
 
-.app-section-about-info-img img{
-    box-shadow: 1px 1px 10px;
+.app-section-about-info-img img {
+    float: left;
 }
 
-.app-section-about-info-title{
+.app-section-about-info-title {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     font-family: Oswald;
     font-size: 60px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     color: #161515;
+    margin: 0 0 22px;
 }
-
 .app-section-about-info-description{
-    font-family: Roboto Condensed;
+    font-family: 'Roboto Condensed', sans-serif;
+
     font-size: 30px;
     font-weight: 700;
     line-height: 131.687%;
     color: #161515;
+}
+.app-section-about .container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 24px rgba(255,255,255,0.1);
 }

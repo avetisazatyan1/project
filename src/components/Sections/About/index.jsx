@@ -3,6 +3,7 @@ import "./style.css";
 const About = () =>{    
     return (      
         <div className="app-section-about">
+        <div className="container">
             <div className="app-section-about-info">
                 <div className="app-section-about-info-title">
                     LOREM IPSUM LOREM IPSUM
@@ -17,7 +18,8 @@ const About = () =>{
                     src ="/assets/Images/about.jpg"
                     alt="about"
                 />
-            </div> 
+            </div>
+        </div>
         </div>  
     )
 }

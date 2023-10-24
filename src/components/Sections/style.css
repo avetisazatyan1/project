@@ -55,7 +55,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 0 110px 85px;
+    margin: 0 0 85px;
     gap: 74px;
 }
 .app-section-container-grid-info{
@@ -67,7 +67,7 @@
     width: 280px;
     height: 185px;
     border-radius: 3px;
-    border: 8px solid #F5CC00;
+    border: 8px solid #FCB64C;
     background-image: url('/public/assets/Images/section_info_background.png'); 
     opacity: 0.5;   
     cursor: pointer;

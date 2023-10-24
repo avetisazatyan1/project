@@ -14,10 +14,10 @@
     height: 750px;
 }
 
-.app-section-evaluation-info{
+.app-section-evaluation-info {
     display: flex;
     gap: 108px;
-    margin: 0 108px;
+    margin: 0;
 }
 
 .app-section-evaluation-title{
@@ -29,30 +29,36 @@
     line-height: normal;
 }
 
-.app-section-evaluation-grid-info{    
+.app-section-evaluation-grid-info {
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    background-color: #F5CC00;
+    align-items: center;
+    background-color: #FCB64C;
     color: #161515;
+    border-radius: 5px;
+    padding: 50px 30px 40px;
 }
-
-.app-section-evaluation-grid-info h1{
+.app-section-evaluation-grid-info h1 {
     font-family: Oswald;
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    color: #161515;        
-    margin: 30px;
+    color: #161515;
+    margin: 0;
 }
 
-.app-section-evaluation-grid-info p{
+.app-section-evaluation-grid-info p {
     text-align: center;
     font-family: Roboto Condensed;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    line-height: 103.688%;      
-    margin: 30px;
+    line-height: 103.688%;
+    margin: 35px 0 0;
+}
+.app-section-evaluation .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -21,9 +21,6 @@
     justify-content: center;
 }
 
-.app-section-why-choose-info{
-    width: 100%;
-}
 
 .app-section-why-choose-info-item{
     display: flex;
@@ -38,4 +35,7 @@
 
 textarea:focus, input:focus{
     outline: none;
+}
+.app-section-why-choose-title p {
+    margin: 0 0 90px;
 }

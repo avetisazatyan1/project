@@ -15,7 +15,7 @@
     justify-content: space-between;
     width: 100%;
     gap : 85px;
-    padding: 150px 110px;   
+    padding: 150px 0px;   
 }
 
 .app-plan-highlights{
@@ -25,35 +25,38 @@
     width: 100%;
 }
 
-.app-plan-highlights-title{    
-    padding-left: 110px;
+.app-plan-highlights-title {
+    padding-left: 0;
+    margin-bottom: 50px;
 }
 
-.app-plan-highlights-title p{    
+.app-plan-highlights-title p {
     color: #FFF;
     font-family: Oswald;
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
-    line-height: 0;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
 }
 
 .app-plan-highlights-group{
     display: flex;
     justify-content: space-between;
-    padding: 0 110px
+    padding: 0 0
 }
 
 .app-plan-highlights-left{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 28px;
 }
 
-.app-plan-highlights-right{
+.app-plan-highlights-right {
     display: flex;
     flex-direction: column;
-    gap: 40px
+    gap: 28px;
 }
 
 .app-plan-description{
@@ -65,6 +68,14 @@
     text-align: left;
 }
 
-.app-plan-description p{
-    padding: 110px
+.app-plan-description p {
+    padding: 110px 0;
+}
+.app-plan-container-types > div {
+    box-shadow: 0px 0px 24px rgba(255,255,255,0.2);
+    border-radius: 33px 33px 5px 5px;
+    background-color: #FCB64C;
+}
+.container-description span:last-child {
+    margin-top: 24px;
 }

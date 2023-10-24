@@ -1,4 +1,5 @@
 import Chart from "./Chart";
+import ContactUs from "./ContactUs";
 import Rate from "../Rate";
 import Button from "../global/Button";
 import Evaluation from "./Evaluation";
@@ -12,6 +13,7 @@ const Sections = () => {
     return (
         <div className="app-sections">
             <div className="app-section">
+            <div className="container">
                 <div className="app-section-container">
                     <div className="app-section-container-title">
                         <h1>LOREM IPSUMLOREM</h1>
@@ -32,13 +34,15 @@ const Sections = () => {
                         <SectionListInfo title={'BID'} info={'389.129'}/>
                     </div>
                 </div>
+                </div>
             </div>
             <About/>
 
             <Evaluation/>
-            <Chart/>            
+            <Chart/>
+            <ContactUs/>         
             <Rate/>
-            <WhyChoose/>
+            <WhyChoose/> 
         </div>
     )
 }
