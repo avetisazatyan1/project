@@ -1,0 +1,16 @@
+.app-section-account-prices{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.table-wrapper {
+  min-width: 65rem;
+}
+.app-section-account-prices table {
+  background: #fff;
+  width: 100%;
+}
+
+.app-section-account-prices table thead {
+  background: #fcb64c;
+}

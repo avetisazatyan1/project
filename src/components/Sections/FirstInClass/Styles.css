@@ -1,0 +1,11 @@
+.section-app-last {
+    text-align: center;
+    padding: 25px;
+
+}
+.card-section {
+    background: transparent !important;
+    color: #fff;
+    padding: 40px 20px;
+    box-shadow: 0 0 8px #ffff;
+}

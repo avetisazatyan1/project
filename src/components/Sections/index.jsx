@@ -5,9 +5,13 @@ import Button from "../global/Button";
 import Evaluation from "./Evaluation";
 import About from "./About";
 import WhyChoose from "./WhyChoose";
+import FirstInClass from "./FirstInClass";
+import OurSpecifications from "./OurSpecifications";
+import AccountPrices from "./AccountPrices";
 
 import "./style.css";
 import SectionListInfo from "../global/SectionListInfo";
+import FaqSection from "./Faq";
 
 const Sections = () => {
     return (
@@ -43,6 +47,10 @@ const Sections = () => {
             <ContactUs/>         
             <Rate/>
             <WhyChoose/> 
+            <AccountPrices/> 
+            <OurSpecifications />
+            <FaqSection/>
+            <FirstInClass/>
         </div>
     )
 }
