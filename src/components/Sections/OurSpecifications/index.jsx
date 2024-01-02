@@ -41,10 +41,11 @@ const data = [
 const OurSpecifications = () => {
   return (
     <div className="app-section-ourSpecifications">
+    <div className="container">
       <Card className="main-card">
-        <Typography  className="section-header">
+        <h2  className="section-header">
           Trade with a Prop Trading Firm that is built for You
-        </Typography>
+        </h2>
         <CardContent>
           <Grid container spacing={4}>
             {data?.map((item, i) => (
@@ -64,9 +65,9 @@ const OurSpecifications = () => {
                     />
                   </Box>
                   <CardContent>
-                    <Typography className="subtitle">
+                    <h3 className="subtitle">
                       {item.subtitle}
-                    </Typography>
+                    </h3>
                     <Typography className="body-text">
                       {item.content}
                     </Typography>
@@ -76,7 +77,8 @@ const OurSpecifications = () => {
             ))}
           </Grid>
         </CardContent>
-      </Card>
+      </Card> 
+      </div>
     </div>
   );
 };

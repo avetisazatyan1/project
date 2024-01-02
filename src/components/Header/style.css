@@ -1,9 +1,9 @@
 .app-header{
-    padding: 11px 100px;
+    padding: 11px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #161515;
+    background-color: #FFFFFF;
 }
 
 .app-menu {
@@ -11,7 +11,8 @@
     padding: 0;
     list-style-type: none;
     display: flex;
-    gap: 100px;
+    gap: 50px;
+    color: #000;
 }
 
 .app-menu li {
@@ -25,7 +26,7 @@
 }
 
 .app-menu li:hover {
-    color: #FCB64C;
+    color: #426BB3;
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -111,9 +112,9 @@
 .app-search input{
     padding-left: 30px;
     background: none;
-    border: 1px solid white;
+    border: 1px solid rgb(0 0 0 / 10%);
     height: 30px;
-    color: white;
+    color: #06030A;
 }
 
 .app-search img{
@@ -141,8 +142,8 @@ gap: 12px!important;
     top: 6px!important;
 }
 
-.css-6hp17o-MuiList-root-MuiMenu-list{
-    background-color: #161515;
+.MuiPaper-elevation .MuiList-root.MuiList-padding.MuiMenu-list{
+    background-color: #426BB3;
     display: flex;
     flex-direction: column;
     padding: 0!important;
@@ -183,8 +184,34 @@ gap: 12px!important;
     max-width: 159px;
     font-size: 15px;
     border-radius: 4px;
-    font-weight: 700;
+    font-weight: 400;
     font-family: Oswald;
+    color: #000;
+}
+.app-search input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #000;
+    opacity: 1;
+}
+.app-search input::-moz-placeholder { /* Firefox 19+ */
+    color: #000;
+    opacity: 1;
+}
+.app-search input:-ms-input-placeholder { /* IE 10+ */
+    color: #000;
+    opacity: 1;
+}
+.app-search input:-moz-placeholder { /* Firefox 18- */
+    color: #000;
+    opacity: 1;
+}
+.css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input.MuiSelect-select .makeStyles-text-2 {
+    color: #0c0c0c !important;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.makeStyles-icon-1.MuiSelect-iconFilled.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+    fill: #06030A !important;
+}
+.MuiPaper-elevation.MuiPaper-rounded {
+    background: #e1e1e1;
 }
 body .css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
     padding-top: 0px;
@@ -193,11 +220,14 @@ body .css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
     font-weight: 700;
     font-size: 20px;
 }
+.app-lang span.jss2 {
+    color: #100e0e !important;
+}
 li.MuiButtonBase-root img {
     border-radius: 50%;
 }
-body .css-17gq4vl.MuiSelect-select {
-    padding: 2px 12px 2px !important;
+body .MuiSelect-select {
+    padding: 2px 32px 0 0!important;
 }
 body .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
     border-radius: 0;
@@ -207,7 +237,15 @@ body .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
     position: relative;
 }
 
-
+.app-lang .makeStyles-text-5 {
+    color: #000 !important;
+}
+.app-lang .MuiSelect-icon {
+    fill: #000 !important;
+}
+.app-lang .MuiSelect-icon {
+    fill: #000 !important;
+}
 .mobile-menu-icon
 {
     display: none;
@@ -218,6 +256,11 @@ body .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
  .App {
     overflow-x: hidden;
 }
+.app-lang-container {
+    gap: 10px;
+}
+
+
 }
 @media (max-width:1399px)
 {
@@ -225,7 +268,10 @@ body .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
     padding: 11px 20px;
 }
 .app-menu {
-    gap: 50px;
+    gap: 30px;
+}
+.app-menu li {
+    font-size: 18px;
 }
 }
 @media (max-width:1199px)
@@ -237,10 +283,14 @@ body .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
     font-size: 18px;
 }
 body .css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
-    font-size: 18px;
+    font-size: 16px;
 }
 .app-menu {
-    gap: 40px;
+    gap: 17px;
+}
+.logo img {
+    width: 80px;
+    height: auto;
 }
 }
 @media (max-width:992px){
@@ -248,29 +298,70 @@ body .css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
     padding: 11px 15px;
 }
 .logo img {
-    max-width: 70px;
+    max-width: 50px;
 }
 .app-menu {
-    gap: 23px;
+    gap: 18px;
 }
 .app-menu li {
-    font-size: 16px;
+    font-size: 14.2px;
 }
 body .css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
-    font-size: 16px;
+    font-size: 14.2px;
 }  
 .app-lang .MuiSelect-select img {
     max-width: 26px;
 }
 .app-search input {
-    max-width: 109px;
+    max-width: 99px;
+    padding-left: 8px;
+}
+body .MuiSelect-select {
+    padding: 2px 22px 0 0!important;
 }
 .app-lang li.MuiButtonBase-root img {
     max-width: 25px;
 }
-
+.app-lang-container .MuiSelect-select {
+    gap: 7px!important;
+}
+.app-lang .MuiSelect-icon {
+    right: 0;
+}
 }
 @media (max-width:768px){
 
-
+.app-search {
+    display: none;
+}
+.mobile-menu-icon {
+    margin: 0 15px 0 auto;
+    width: 30px;
+    display: inline-flex;
+    cursor: pointer;
+}
+.mobile-menu-icon img {
+    width: 100%;
+    height: auto;
+}
+.app-menu {
+    gap: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 67px;
+    background: #fff;
+    flex-wrap: wrap;
+    display: none;
+}
+.app-menu.open {
+    display: block;
+}
+.app-menu li {
+    width: 100%;
+    padding: 3px 13px;
+}
+.app-menu li:hover {
+    transform: scale(1);
+}
 }

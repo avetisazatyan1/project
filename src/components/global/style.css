@@ -1,19 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 .button-default {
-    background-color: #FCB64C;
-    color: black;
-    padding: 18px 25px 18px 23px;
-    cursor: pointer;
+    background-color: #426BB3;
     border: none;
-    font-family: 'Roboto Condensed';
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Roboto Condensed;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
     line-height: 35px;
-    border-radius: 2px;
     min-width: 160px;
+    padding: 14px 25px 14px 23px;
 }
 .button-span {
     display: flex;

@@ -22,6 +22,13 @@ const Header = () => {
     };   
    
     const classes = useStyles();
+
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+      setMenuOpen(!isMenuOpen);
+    };
+    
     return (
         <div className="app-header">
         <div className="container">
@@ -36,13 +43,13 @@ const Header = () => {
                 </Link>
             </div>
 
-            <ul className="app-menu">
+            <ul className={"app-menu " + (isMenuOpen ? 'open' : '')}>
                 <li>
                     <div className="app-menu-dropdown" style={{display:"inline-block",position:"relative"}}>
                         <div className="app-menu-dropdown-drop" style={{}}>
                             <span>How it works</span>
                             <img
-                                src ="/assets/Icons/down.svg"
+                                src ="/assets/Icons/arrow-down.png"
                                 alt="eng_lang"                            
                                 width={11}
                                 height={6}
@@ -56,16 +63,24 @@ const Header = () => {
                     </div>
                 </li>
                 <li>
-                    <span>About Us</span>                            
+                    <span>Evaluation</span>                            
                 </li>
                 <li>
-                    <span>Contact</span>                            
+                    <span>Instant Funding</span>                            
+                </li>
+                <li>
+                    <span>Scaling Plan</span>                            
                 </li>
                 <li>
                     <span>F.A.Q</span>
                 </li>
+                <li>
+                    <span>Contact</span>
+                </li>
             </ul>
-            <div className="mobile-menu-icon"></div>
+            <div className="mobile-menu-icon"  onClick={toggleMenu}>
+            <img src ="/assets/Icons/menu.png" />
+            </div>
 
             <div className="app-lang-container" >                
                 <div className='app-lang' >

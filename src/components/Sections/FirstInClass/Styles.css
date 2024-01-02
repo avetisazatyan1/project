@@ -1,11 +1,61 @@
 .section-app-last {
     text-align: center;
-    padding: 25px;
+    padding: 125px 0;
+    background: url('/public/assets/Images/liquidy-bg.png') no-repeat center;
+    background-size: cover;
 
 }
-.card-section {
-    background: transparent !important;
-    color: #fff;
-    padding: 40px 20px;
-    box-shadow: 0 0 8px #ffff;
+.section-app-last .MuiTypography-root.MuiTypography-h3 {
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 86px;
+    text-transform: uppercase;
+}
+.section-app-last .MuiTypography-root.MuiTypography-h5 {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 131.687%;
+    margin: 20px 0 0;
+}
+.section-app-last  .MuiTypography-root.MuiTypography-body2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 131.687%;
+    margin: 20px 0 0;
+}
+@media (max-width:1200px)
+{
+.section-app-last {
+    padding: 75px 0;
+}
+.section-app-last .MuiTypography-root.MuiTypography-h3 {
+    font-size: 40px;
+    line-height: 56px;
+}
+}
+@media (max-width:992px)
+{
+.section-app-last .MuiTypography-root.MuiTypography-h3 {
+    font-size: 30px;
+    line-height: 46px;
+}
+.section-app-last  .MuiTypography-root.MuiTypography-body2 {
+    font-size: 20px;
+}
+.section-app-last .MuiTypography-root.MuiTypography-h5 {
+    font-size: 20px;
+}
+.section-app-last {
+    padding: 55px 0;
+}
 }

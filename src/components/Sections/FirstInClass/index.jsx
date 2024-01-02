@@ -3,6 +3,7 @@ import "./Styles.css"
 const FirstInClass = () => {
   return (
     <div className="section-app-last">
+    <div className="container">
       <Card class="card-section">
         <CardContent>
           <Typography variant="h3" component="div">
@@ -18,6 +19,7 @@ const FirstInClass = () => {
           </Typography>
         </CardContent>
       </Card>
+      </div>
     </div>
   );
 };

@@ -3,42 +3,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
-.app-section-evaluation{
+.app-section-evaluation {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('/public/assets/Images/evaluation_background.png');
-    background-color: black;
+    /* background-image: url('/public/assets/Images/evaluation_background.png'); */
+    background-color: #fff;
     background-size: cover;
     width: 100%;
-    height: 750px;
+    box-sizing: border-box;
+    padding: 80px 15px 80px;
 }
 
 .app-section-evaluation-info {
-    display: flex;
-    gap: 108px;
+    display: grid;
+    gap: 65px;
     margin: 0;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 0 0;
 }
 
-.app-section-evaluation-title{
-    color: #FFF;
+.app-section-evaluation-title h2 {
+    color: #07030B;
     font-family: Oswald;
-    font-size: 60px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.app-section-evaluation-title p {
+    color: #070513;
+    font-family: Roboto Condensed;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 131.687%;
 }
-
+.app-section-evaluation-title {
+    text-align: center;
+}
 .app-section-evaluation-grid-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FCB64C;
     color: #161515;
+    padding: 50px 00px 40px;
     border-radius: 5px;
-    padding: 50px 30px 40px;
+    background: #426BB3;
+    box-shadow: 0px 4px 33px 0px rgba(241, 236, 236, 0.30);
 }
-.app-section-evaluation-grid-info h1 {
+.app-section-evaluation-grid-info h3 {
     font-family: Oswald;
     font-size: 50px;
     font-style: normal;
@@ -61,4 +77,121 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.stepText {
+    background: rgb(9 9 9 / 10%);
+    width: 100%;
+    color: #FEFEFE;
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 103.688%;
+    text-transform: uppercase;
+    padding: 11px 0 10px;
+}
+.app-section-evaluation-grid-info > h3 {
+    color: #FEFEFE;
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+.app-section-evaluation-grid-info > p {
+    color: #FEFEFE;
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 119.688%;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+.phaseText {
+    color: #FEFEFE;
+    padding: 0 0 10px;
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.app-section-text {
+    color: #070513;
+    font-family: Roboto Condensed;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135.7%;
+    padding-top: 50px;
+}
+
+
+@media (max-width:1400px)
+{
+.app-section-evaluation-title h2 {
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+.app-section-evaluation-info {
+    gap: 45px;
+}
+.app-section-text {
+    font-size: 20px;
+}
+}
+
+@media (max-width:1200px)
+{
+.app-section-evaluation-title h2 {
+    font-size: 35px;
+}
+.app-section-evaluation-info {
+    gap: 25px;
+}
+.app-section-evaluation-grid-info > p {
+    font-size: 24px;
+}
+}
+@media (max-width:991px)
+{
+.app-section-evaluation {
+    padding: 50px 15px 40px;
+}
+.app-section-evaluation-grid-info > h3 {
+    font-size: 22px;
+}
+.app-section-evaluation-title h2 {
+    font-size: 30px;
+}
+.app-section-evaluation-title p {
+    font-size: 24px;
+}
+
+.app-section-evaluation-grid-info > p {
+    font-size: 20px;
+}
+}
+@media (max-width:768px)
+{
+.app-section-evaluation-grid-info {
+    padding: 20px 00px 30px;
+}
+.app-section-evaluation-info {
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+@media (max-width:479px)
+{
+.app-section-evaluation-title h2 {
+    font-size: 25px;
+}
 }

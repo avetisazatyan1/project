@@ -94,7 +94,10 @@ const Objective = () => {
                         <Button title={'Quick comparison'}/>
                     </div>
                 </div>
-                <StepTable/>
+
+                <div className="StepTableTq">
+                        <StepTable/>
+                </div>
                 </div>
                 <ContactUs/> 
             </div>

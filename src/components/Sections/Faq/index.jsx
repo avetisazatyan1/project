@@ -21,6 +21,7 @@ const FaqSection = () => {
 
   return (
     <div className="app-section-faq">
+    <div className="container">
       <Card className="card">
         <Typography className="section-header">FAQ</Typography>
 
@@ -44,13 +45,12 @@ const FaqSection = () => {
                 variant="subtitle1"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                General settings
+                What is TradeWithCapital?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Nulla facilisi. Phasellus sollicitudin nulla et quam mattis
-                feugiat. Aliquam eget maximus est, id dignissim quam.
+                At TradeWithCapital, we're in the business of investing in traders. Our mission is to identify and back talented individuals with a passion for trading. We believe in giving traders the opportunity they deserve, and that is why we offer funding to those who prove themselves through our rigorous evaluation process.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -73,14 +73,12 @@ const FaqSection = () => {
                 variant="subtitle1"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Users
+                How do I get started?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Donec placerat, lectus sed mattis semper, neque lectus feugiat
-                lectus, varius pulvinar diam eros in elit. Pellentesque
-                convallis laoreet laoreet.
+                Simply sign up for our Evaluation Phase and prove that you are a profitable trader by passing both stage 1 and stage 2.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -97,14 +95,12 @@ const FaqSection = () => {
                 variant="subtitle1"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Advanced settings
+                How long will it take for me to become a Funded Trader?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
-                Integer sit amet egestas eros, vitae egestas augue. Duis vel est
-                augue.
+                We only have a minimum of 8 trading days in our Evaluation Phase. This means that you can become a Funded Trader in just over a week!
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -128,19 +124,53 @@ const FaqSection = () => {
                 variant="subtitle1"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Advanced settings
+                What platforms can I trade on?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
-                Integer sit amet egestas eros, vitae egestas augue. Duis vel est
-                augue.
+                You have the option to choose cTrader, MT4, MT5, or TradeLocker.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion
+            expanded={expanded === "panel5"}
+            onChange={handleChange("panel5")}
+          >
+            <AccordionSummary
+              expandIcon={
+                expanded === "panel1" ? (
+                  <RemoveIcon color={"primary"} />
+                ) : (
+                  <AddIcon color={"primary"} />
+                )
+              }
+              aria-controls="panel5bh-content"
+              id="panel5bh-header"
+            >
+              {" "}
+              <Typography
+                variant="subtitle1"
+                sx={{ width: "33%", flexShrink: 0 }}
+              >
+                What instruments do you offer and how much leverage can I trade with?
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                Commodities: 1:20
+              </Typography>
+              <Typography>
+                Forex: 1:100
+              </Typography>
+              <Typography>
+                Indices: 1:20
               </Typography>
             </AccordionDetails>
           </Accordion>
         </CardContent>
       </Card>
+      </div>
     </div>
   );
 };

@@ -1,37 +1,46 @@
 .app-section-ourSpecifications {
   display: flex;
   justify-content: center;
-  padding: 25px;
+  padding: 90px 10px 70px;
+  background: url('/public/assets/Images/the-challenge.png') no-repeat center;
+  background-size: cover;
 }
 .main-card {
   background: transparent !important;
-  box-shadow: 0 0 11px #ffff !important;
-  padding: 60px 25px;
+  box-shadow: none !important;
+  padding: 0px;
 }
+
 .specification-card {
   text-align: center;
-  padding: 25px;
+  padding: 0 25px;
+  background: transparent !important;
+  border: none !important;
 }
 
 .app-section-ourSpecifications img {
   width: unset;
 }
 .section-header {
+  color: #FFF;
+  text-align: center;
   font-family: Oswald;
-  font-size: 3rem !important;
-  font-weight: 500 !important;
-  line-height: 86px!important;
-  letter-spacing: 0em!important;
-  text-align: center!important;
-  color: #ffffff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin: 0 0 70px;
+  padding: 0 4% 0px;
 }
 .subtitle {
+  color: #FFF;
+  text-align: center;
   font-family: Roboto Condensed;
   font-size: 22px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-align: center;
+  line-height: 131.687%;
 }
 .body-text {
   font-family: Roboto;
@@ -40,4 +49,84 @@
   line-height: 26px;
   letter-spacing: 0em;
   text-align: center;
+}
+.app-section-ourSpecifications .MuiGrid-root.MuiGrid-container>.MuiGrid-item {
+  padding-left: 16px;
+  border-left: 1px solid #ffffff36;
+  padding-right: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.app-section-ourSpecifications .MuiGrid-root.MuiGrid-container {
+  width: calc(100%);
+  margin-left: -0;
+  margin-top: 0;
+}
+.app-section-ourSpecifications .MuiTypography-body1.body-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 131.687%;
+}
+
+.app-section-ourSpecifications .MuiPaper-elevation.MuiPaper-rounded {
+  border: none;
+}
+.app-section-ourSpecifications .MuiGrid-root.MuiGrid-container>.MuiGrid-item:first-child
+{
+  border: none;
+}
+.app-section-ourSpecifications .MuiCardContent-root {
+  padding: 0;
+}
+
+
+@media (max-width:1400px)
+{
+.section-header {
+  font-size: 40px;
+  margin: 0 0 50px;
+  padding: 0 0% 0px;
+}
+.app-section-ourSpecifications {
+  padding: 70px 10px 30px;
+}
+
+
+}
+@media (max-width:1200px)
+{
+.specification-card {
+    padding: 0 5px;
+}
+
+}
+@media (max-width:992px)
+{
+.section-header {
+    font-size: 30px;
+    margin: 0 0 40px;
+}
+  .app-section-ourSpecifications .MuiGrid-root.MuiGrid-container>.MuiGrid-item {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+}
+
+@media (max-width:768px)
+{
+  .app-section-ourSpecifications .MuiGrid-root.MuiGrid-container>.MuiGrid-item {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    flex-basis: 100%;
+    border: none;
+}
 }

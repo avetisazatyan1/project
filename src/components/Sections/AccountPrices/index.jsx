@@ -41,6 +41,7 @@ const data = [
 const AccountPrices = () => {
   return (
     <div className="app-section-account-prices">
+    <div className="container">
       <div className="table-wrapper">
         <Table aria-label="simple table">
           <TableHead>
@@ -58,6 +59,7 @@ const AccountPrices = () => {
             ))}
           </TableBody>
         </Table>
+        </div>
       </div>
     </div>
   );
