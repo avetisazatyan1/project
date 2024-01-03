@@ -1,0 +1,58 @@
+.app-section-account-prices {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  background: #fff;
+  padding: 100px 0 110px;
+}
+.table-wrapper {
+  min-width: 65rem;
+}
+.table-wrapper {
+  max-width: 1100px;
+  margin: auto;
+}
+.app-section-account-prices table {
+  background: #fff;
+  width: 100%;
+}
+
+.app-section-account-prices table thead {
+  background: #426BB3;
+}
+.app-section-account-prices table thead th {
+  color: #FFF;
+  font-family: Oswald;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 24px 10px;
+}
+
+.app-section-account-prices table tbody  td {
+  color: #101010;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 131.687%;
+  padding: 24px 10px;
+  border-right: 1px solid #101010;
+  width: 50%;
+  border-bottom: none;
+}
+.app-section-account-prices table tbody 
+{
+  background: #ECF0F7;
+}
+.app-section-account-prices table tbody tr:nth-child(2n)
+{
+  
+  background: rgb(14 30 57 / 5%);
+}
+.app-section-account-prices table tbody  td:last-child
+{
+  border-right: none;
+}

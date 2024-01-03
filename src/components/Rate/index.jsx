@@ -12,6 +12,7 @@ const Rate = () => {
     };
 
     return (
+        <div className="container">
         <div className="app-section-rate">
             <div className="app-section-rate-container">
                 <div className="app-section-rate-container1">
@@ -60,6 +61,7 @@ const Rate = () => {
                     })}
                 </tbody>
             </table>
+            </div>
         </div>
   );
 };

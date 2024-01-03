@@ -4,6 +4,7 @@ import Button from "../../global/Button";
 const ContactUs = () =>{    
     return (
         <div className="app-section-contact-us">
+        <div className="container">
             <div className="app-section-contact-us-title">
                 <p>Contact Us</p>
             </div>
@@ -95,6 +96,7 @@ const ContactUs = () =>{
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )
