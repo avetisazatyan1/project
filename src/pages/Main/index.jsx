@@ -8,7 +8,7 @@ const Main = () => {
         <div className="App">
             <Header/>
             <DefaultLayout/>
-            {/*<ContactUs/>*/}
+            <ContactUs/>
             <Footer/>
         </div>
     );

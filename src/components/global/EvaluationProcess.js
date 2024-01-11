@@ -1,13 +1,10 @@
 import React from "react";
 
-const EvaluationProcess = ({phase, step, title, description, description2}) => {
+const EvaluationProcess = ({title, description}) => {
     return (
         <div className="app-section-evaluation-grid-info">
-            <div className="phaseText">{phase}</div>
-            <div className="stepText">{step}</div>
-            <h3>{title}</h3>
+            <h1>{title}</h1>
             <p>{description}</p>
-            <p>{description2}</p>
         </div>
     );
 }

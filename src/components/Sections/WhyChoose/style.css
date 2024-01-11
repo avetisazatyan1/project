@@ -7,26 +7,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 130px 10px 120px;
-    background: url('/public/assets/Images/the-challenge.png') no-repeat center;
-    background-size: cover;
+    padding: 0 110px;
 }
 
-
-.app-section-why-choose-title {
+.app-section-why-choose-title{
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: 0em;
+    text-align: left;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
 }
-.app-section-why-choose-title h2 {
-    font-family: Oswald;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.3;
-    text-transform: uppercase;
-    margin: 0;
+
+.app-section-why-choose-info{
+    width: 100%;
 }
 
 .app-section-why-choose-info-item{
@@ -42,50 +38,4 @@
 
 textarea:focus, input:focus{
     outline: none;
-}
-.app-section-why-choose-title p {
-    padding: 12px 7% 60px;
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto Condensed;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 131.687%;
-    margin: 0;
-}
-
-@media (max-width:1200px)
-{
-.app-section-why-choose-info {
-    max-width: 100%;
-}
-.app-section-why-choose {
-    padding: 70px 20px 70px;
-}
-.app-section-why-choose-title p {
-    padding: 12px 0% 30px;
-    font-size: 20px;
-    line-height: 131.687%;
-}
-.app-section-why-choose-title h2 {
-    font-size: 40px;
-}
-}
-
-@media (max-width:992px)
-{
-.app-section-why-choose {
-    padding: 50px 20px 40px;
-}
-}
-@media (max-width:768px)
-{
-.app-section-why-choose-title h2 {
-    font-size: 30px;
-}
-.app-section-why-choose-title p {
-    padding: 12px 0% 20px;
-}
-
 }

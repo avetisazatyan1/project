@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 800px;
+    height: 600px;
 }
 .app-section-container-title{
     display: flex;
@@ -27,26 +27,21 @@
     gap: 4px;
 }
 
-
-.app-section-container-title h1 {
-    color: #fff;
+.app-section-container-title h1{
     font-family: Oswald;
-    font-size: 90px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.2;
-    text-transform: uppercase;
-    margin: 0;
-    text-align: center;
+    font-size: 100px;
+    line-height: 0px;
+    color: #FFFFFF;
 }
 
-.app-section-container-title p {
+.app-section-container-title p{
     font-family: Roboto Condensed;
-    font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 47px;
-    text-align: center;
+    font-size: 40px;
+    line-height: 47px
 }
 .app-section-container-btn{
     display: flex;
@@ -60,7 +55,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 0 0 85px;
+    margin: 0 110px 85px;
     gap: 74px;
 }
 .app-section-container-grid-info{
@@ -72,7 +67,7 @@
     width: 280px;
     height: 185px;
     border-radius: 3px;
-    border: 8px solid #FCB64C;
+    border: 8px solid #F5CC00;
     background-image: url('/public/assets/Images/section_info_background.png'); 
     opacity: 0.5;   
     cursor: pointer;
@@ -95,59 +90,4 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 0;
-}
-
-
-@media (max-width:1399px)
-{
-.app-section-container-title h1 {
-    font-size: 79px;
-}
-.app-section-container-title p {
-    font-size: 34px;
-    line-height: 44px;
-}
-.app-section-container {
-    height: 700px;
-}
-}
-@media (max-width:1199px){
-.app-section-container-title h1 {
-    font-size: 66px;
-}
-.app-section-container {
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-.app-section-container-title p {
-    font-size: 32px;
-}
-}
-@media (max-width:992px){
-.app-section-container-title h1 {
-    font-size: 50px;
-}
-.app-section-container-title p {
-    font-size: 29px;
-    font-weight: 700;
-    line-height: 1.4;
-    margin: 20px 0 30px;
-}
-.app-section-container {
-    width: 100%;
-}
-.app-section-container {
-    height: 600px;
-}
-
-}
-@media (max-width:768px){
-
- .app-section-container-title h1 {
-    font-size: 35px;
-}   
-.app-section-container-title p {
-    font-size: 20px;
-    margin: 20px 0 30px;
-}
 }

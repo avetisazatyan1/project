@@ -2,9 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 100px 10px 35px; 
-    background: #fff;
-    color: #000;
+    margin: 150px 110px 35px; 
 }
 
 .app-footer-title{
@@ -15,15 +13,7 @@
     letter-spacing: 0em;
     text-align: left;    
 }
-.app-footer-menu h4 {
-    color: #161515;
-    font-family: Oswald;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-}
+
 .app-footer-container{
     display: flex;
     justify-content: space-between;
@@ -40,13 +30,12 @@
     margin-top: 20px;
     gap: 20px;
 }
-.app-footer-subscribe input {
-    border: 1px solid #FFC83D;
-    border-radius: 5px;
+.app-footer-subscribe input{
+    border: 1px solid yellow;
+    border-radius: 2px;
     background: none;
-    color: none;
+    color: none;    
     padding: 10px 110px 10px 10px;
-    height: 27px;
 }
 
 .app-footer-subscribe input{
@@ -63,26 +52,22 @@
     color: #FFFFFF;
 }
 
-.app-footer-menu {
+.app-footer-menu{
     display: flex;
     width: 100%;
     flex-direction: column;
     gap: 25px;
-    min-width: 510px;
 }
 
 .app-footer-menu-items{
     width: 100%;
     list-style-type: none;
     display: flex;
-    gap: 10px;    
+    gap: 110px;    
     padding: 0;
     margin: 0;
-    flex-direction: column;
 }
-.app-footer-logo {
-    width: 490px;
-}
+
 .app-footer-menu-items2 {
     list-style-type: none;
     display: flex;
@@ -92,125 +77,36 @@
     margin: 0;
     padding: 0;
 }
-.app-footer-menu-inner {
-    display: flex;
-}
+
 .app-footer-menu-items li,
 .app-footer-menu-items2 li{
-    color: #161515;
-font-family: Roboto Condensed;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 222.222% */
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
     letter-spacing: 0em;
     transition: transform .5s;
 }
 
 .app-footer-menu-items li:hover {
-    color: #426BB3;
+    color: yellow;
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.2);    
     cursor: pointer;
 }
 
-.app-footer-contact-with {
+.app-footer-contact-with{
     display: flex;
     flex-direction: column;
     gap: 14px;
-    border: 0px solid #426BB3;
-    border-radius: 7px;
-    padding: 0;
-    margin-bottom: 40px;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    padding: 14px;
 }
-.app-footer-contact-with-item {
-    color: #161515;
-    font-family: Roboto Condensed;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-}
-.app-footer-contact-with-item a {
-    color: unset;
-    text-decoration: unset;
-}
-.app-footer-contact-with-item a img {
-    vertical-align: middle;
-    margin: 0 6px 0 0;
-}
-.app-footer-contact-with h5 {
-    color: #161515;
-    font-family: Oswald;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0 0 10px;
-}
-.app-footer-container-year {
+
+.app-footer-container-year{
     text-align: center;
-    padding: 45px 10px 10px;
-    border-top: 1px solid #16151529;
-    margin-top: 30px;
-    color: #161515;
-    font-family: Roboto;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+    padding: 27px;
+    border-top: 2px solid yellow;
 }
-.app-footer .container {
-    display: flex;
-    flex-direction: column;
-}
-@media (max-width:1400px)
-{
-.app-footer-logo {
-    width: auto;
-}  
-}
-@media (max-width:1200px)
-{
-.app-footer-menu {
-    min-width: 400px;
-} 
-}
-@media (max-width:992px)
-{
-.app-footer-menu-container {
-    gap: 68px;
-}
-.app-footer-menu {
-    min-width: 320px;
-}
-.app-footer {
-    padding: 50px 20px 15px;
-}
-.app-footer-container-year {
-    margin-top: 30px;
-    font-size: 18px;
-    padding-top: 25px;
-}
-}
-@media (max-width:768px)
-{
-.app-footer-logo img {
-    width: 80px;
-}
-.app-footer {
-    padding: 20px 20px 15px;
-}
-}
-@media (max-width:640px)
-{
-.app-footer-menu-container {
-    gap: 20px;
-    flex-direction: column;
-}
-.app-footer-container {
-    flex-direction: column;
-    gap: 40px;
-}
-.app-footer-contact-with {
-    margin-bottom: 20px;
-}
-}
+

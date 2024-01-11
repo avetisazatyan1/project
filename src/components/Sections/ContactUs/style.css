@@ -19,20 +19,20 @@
     line-height: normal;
 }
 
-.app-section-contact-us-container {
+.app-section-contact-us-container{
     display: flex;
     width: 100%;
-    box-shadow: 0px 0px 27px rgba(255,255,255,0.2);
-    background-color: #161515;
+    box-shadow: 1px 1px 10px;
 }
+
 .app-section-contact-us-form{
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.app-section-contact-us-form {
-    padding: 75px 50px 75px;
+.app-section-contact-us-form{
+    padding:50px;
 }
 
 .app-section-contact-us-form-title{
@@ -42,7 +42,7 @@
     line-height: 58px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FCB64C;
+    color: #F5CC00;
 }
 
 .app-section-contact-us-form-inputs{
@@ -66,7 +66,7 @@
     width: 288px;
     color: white;
     font-family: Roboto Condensed;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 0;
     letter-spacing: 0em;
@@ -76,12 +76,11 @@
 .app-section-contact-us-form-inputs-item input::placeholder, 
 .app-section-contact-us-form-message-item input::placeholder {
     font-family: Roboto Condensed;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 0;
     letter-spacing: 0em;
     text-align: left;
-    color: #D2D2D2;
 }
 
 .app-section-contact-us-form-message-item input{
@@ -101,29 +100,26 @@
 
 .app-section-contact-us-info{
     display: flex; 
-    background-color: #FCB64C;
+    background-color: #F5CC00;
 }
 
-.app-section-contact-us-info-frame {
-    display: flex;
+.app-section-contact-us-info-frame{
+    display: flex;    
     flex-direction: column;
     align-items: center;
     margin: 74px 50px;
     background-color: #161515;
-    width: 521px;
-    box-shadow: 5px 11px 23px #000000a3;
 }
+
 .app-section-contact-us-info-logo{
     margin: 45px 135px;
 }
 
-.app-section-contact-us-info-contacts {
+.app-section-contact-us-info-contacts{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    font-size: 25px;
-    font-weight: 700;
 }
 
 .app-section-contact-us-info-contacts-with{
@@ -137,20 +133,4 @@
     display: flex;
     border-radius: 7.059px;
     border: 1.412px solid var(--yellow, #FFC83D);
-}
-.app-section-contact-us-title p {
-    margin-top: 0;
-    margin-bottom: 95px;
-}
-.app-section-contact-us .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.app-section-contact-us-form-title p {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-.app-section-contact-us-info-contacts-with-item {
-    margin: 0 4px;
 }

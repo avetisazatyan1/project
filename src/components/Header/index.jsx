@@ -22,16 +22,8 @@ const Header = () => {
     };   
    
     const classes = useStyles();
-
-    const [isMenuOpen, setMenuOpen] = useState(false);
-
-    const toggleMenu = () => {
-      setMenuOpen(!isMenuOpen);
-    };
-    
     return (
         <div className="app-header">
-        <div className="container">
             <div className="logo">
                 <Link to='/'>
                     <img 
@@ -43,13 +35,13 @@ const Header = () => {
                 </Link>
             </div>
 
-            <ul className={"app-menu " + (isMenuOpen ? 'open' : '')}>
+            <ul className="app-menu">
                 <li>
                     <div className="app-menu-dropdown" style={{display:"inline-block",position:"relative"}}>
                         <div className="app-menu-dropdown-drop" style={{}}>
                             <span>How it works</span>
                             <img
-                                src ="/assets/Icons/arrow-down.png"
+                                src ="/assets/Icons/down.svg"
                                 alt="eng_lang"                            
                                 width={11}
                                 height={6}
@@ -63,24 +55,15 @@ const Header = () => {
                     </div>
                 </li>
                 <li>
-                    <span>Evaluation</span>                            
+                    <span>About Us</span>                            
                 </li>
                 <li>
-                    <span>Instant Funding</span>                            
-                </li>
-                <li>
-                    <span>Scaling Plan</span>                            
+                    <span>Contact</span>                            
                 </li>
                 <li>
                     <span>F.A.Q</span>
                 </li>
-                <li>
-                    <span>Contact</span>
-                </li>
             </ul>
-            <div className="mobile-menu-icon"  onClick={toggleMenu}>
-            <img src ="/assets/Icons/menu.png" />
-            </div>
 
             <div className="app-lang-container" >                
                 <div className='app-lang' >
@@ -123,7 +106,6 @@ const Header = () => {
                     />
                 </div>
                 
-            </div>
             </div>
         </div>        
     )
