@@ -3,7 +3,6 @@ import StepTable from "../../components/StepTable";
 import Button from "../../components/global/Button";
 import "./style.css";
 import HeaderLayout from "../../components/global/HeaderLayout";
-import ContactUs from "../../components/Sections/ContactUs";
 
 const Objective = () => {
     const [clickedCurrencyBtn, setClickedCurrencyBtn] = useState("USD");
@@ -30,7 +29,6 @@ const Objective = () => {
             />
 
             <div className="app-objective-group">
-            <div className="container">
                 <div className="app-objective-currency">
                     <div className="app-objective-currency-title">
                         <p>Currency: </p>
@@ -94,12 +92,7 @@ const Objective = () => {
                         <Button title={'Quick comparison'}/>
                     </div>
                 </div>
-
-                <div className="StepTableTq">
-                        <StepTable/>
-                </div>
-                </div>
-                <ContactUs/> 
+                <StepTable/>
             </div>
         </>
     );

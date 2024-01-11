@@ -65,7 +65,7 @@ function Row(props) {
             <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
             <Collapse in={open} timeout="auto" unmountOnExit>
                 <Box sx={{ margin: 1 }}>
-                <Typography  style={{color: 'white', fontSize: '17px'}} gutterBottom component="div">
+                <Typography  style={{color: 'white', fontSize: '14px'}} gutterBottom component="div">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium quis ullam optio! Cumque quisquam delectus, ducimus beatae porro qui ut?
                 </Typography>
                 </Box>
@@ -113,16 +113,16 @@ export default function StepTable() {
                             </div>
                         </TableCell>
                         <TableCell align="center">
-                            <div style={{color: '#FCB64C'}}>Step 1</div>   
-                            <div style={{color: '#FCB64C'}}>FTMO Challenge</div>           
+                            <div style={{color: 'yellow'}}>Step 1</div>   
+                            <div style={{color: 'yellow'}}>FTMO Challenge</div>           
                         </TableCell>
                         <TableCell align="center">
-                            <div style={{color: '#FCB64C'}}>Step 2</div>   
-                            <div style={{color: '#FCB64C'}}>Verification</div>
+                            <div style={{color: 'yellow'}}>Step 2</div>   
+                            <div style={{color: 'yellow'}}>Verification</div>
                         </TableCell>
                         <TableCell align="center">
-                            <div style={{color: '#FCB64C'}}>Step 3</div>   
-                            <div style={{color: '#FCB64C'}}>FTMO Trader</div>
+                            <div style={{color: 'yellow'}}>Step 3</div>   
+                            <div style={{color: 'yellow'}}>FTMO Trader</div>
                         </TableCell>
                     </TableRow>
                 </TableHead>

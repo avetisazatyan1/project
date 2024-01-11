@@ -81,7 +81,7 @@ export const data = {
         {
             label: 'Dataset 2',
             data: [150, 300, 100, 250, 190, 220, 100, 250, 50, 200],
-            backgroundColor: 'rgba(252, 182, 76)',
+            backgroundColor: 'rgba(245, 204, 0)',
         },
     ],
 };

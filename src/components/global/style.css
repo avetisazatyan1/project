@@ -1,31 +1,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 .button-default {
-    background-color: #426BB3;
-    border: none;
-    border-radius: 2px;
-    color: #fff;
+    background-color: #F5CC00; 
+    color: black;
+    padding: 10px;
     cursor: pointer;
-    font-family: Roboto Condensed;
-    font-size: 30px;
+    border: none;
+    font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 700;
+    font-size: 30px;
     line-height: 35px;
-    min-width: 160px;
-    padding: 14px 25px 14px 23px;
+    border-radius: 3px;
 }
-.button-span {
+.button-span{
     display: flex;
     align-items: center;
     gap: 10px;
-    justify-content: center;
 }
 
 .button-border {
     background: none;
-    color: #FCB64C;
-    border: 1px solid #FCB64C;
+    color: #ffff;
+    border: 1px solid #F5CC00;
 }
 
 .button-border:hover,
@@ -34,31 +32,17 @@
     color: black;
     transition: 0.5s;
 }
-.app-objective-group .button-default {
-    box-shadow: 0px 0px 27px rgba(255,255,255,0.2);
-    font-family: Oswald;
-}
-.app-objective-group .button-default.button-border {
-    box-shadow: none;
-    color: white;
-}
-.app-objective-group .button-default:hover, .app-objective-group .button-default.button-border:hover {
-    background-color: #FCB64C;
-    color: black;
-    box-shadow: 0px 0px 27px rgba(255,255,255,0.2);
-}
 
 .button-subscribe {
     background: #FFC83D;
     color: black;
     font-family: 'Roboto Condensed';
     font-size: 20px;
-    width: -moz-fit-content;
     width: fit-content;
     font-weight: 400;
     line-height: 43px;
     letter-spacing: 0em;
-    padding: 5px 18px;
+    padding: 5px 10px;
     text-align: left;
 }
 
@@ -80,7 +64,7 @@
     border-radius: 28px 28px 5px 5px;
 }
 
-.container-description {
+.container-description{
     color: #161515;
     font-family: Roboto Condensed;
     font-size: 30px;
@@ -90,48 +74,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: #F5CC00; */
+    background-color: #F5CC00;
     padding: 34px;
 }
-.plan-highlights {
+.plan-highlights{
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-bottom: 28px;
-    border-bottom: 3px solid #FCB64C;
+    padding-bottom: 40px;
+    border-bottom: 3px solid yellow;
 }
 
-.plan-highlights-circle {
+.plan-highlights-circle{
     width: 23px;
     border-radius: 20px;
     height: 23px;
-    background: #FCB64C;
+    background: yellow;
 }
 
-.plan-highlights-line {
-    line-height: 0;
-    font-size: 25px;
-    font-weight: 700;
-    font-family: 'Oswald';
-}
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    width: 1380px;
-}
-
-@media (max-width:1399px)
-{
-.container {
-    width: 1160px;
-}
-}
-@media (max-width:1199px){
-
-}
-@media (max-width:992px){
-
-}
-@media (max-width:768px){
-
+.plan-highlights-line{
+    line-height: 0
 }
